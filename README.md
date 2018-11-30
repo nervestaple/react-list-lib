@@ -15,12 +15,12 @@ npm install --save react-list-lib
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-list-lib'
+import { List } from 'react-list-lib'
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <List />
     )
   }
 }
